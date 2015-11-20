@@ -1,0 +1,42 @@
+{
+  "name": "angular-emoji-flags",
+  "version": "0.1.0",
+  "description": "turns a country code (ISO 3166) into a flag emoji",
+  "main": "dist/angular-emoji-flags.js",
+  "devDependencies": {
+    "angular": "^1.4.7",
+    "angular-mocks": "^1.4.7",
+    "del": "^2.1.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "~2.2.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-ng-annotate": "^1.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-tslint": "^3.6.0",
+    "gulp-tslint-stylish": "^1.1.1",
+    "gulp-typescript": "^2.9.2",
+    "gulp-uglify": "~0.2.1",
+    "merge-stream": "^1.0.0",
+    "multipipe": "0.0.2",
+    "testem": "^0.9.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "tsd reinstall -so && gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwacky/angular-emoji-flags.git"
+  },
+  "keywords": [
+    "emoji",
+    "flags",
+    "angular"
+  ],
+  "author": "Simon Wicki <sim.wicki@gmail.com> (https://twitter.com/zwacky)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zwacky/angular-emoji-flags/issues"
+  },
+  "homepage": "https://github.com/zwacky/angular-emoji-flags#readme"
+}
