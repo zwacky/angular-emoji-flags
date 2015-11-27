@@ -812,7 +812,7 @@ var angularEmojiFlags;
             };
         }
         EmojiFlagsService.prototype.getFlagByCountry = function (country) {
-            return (country.toUpperCase() in this.flags) ?
+            return (country && country.toUpperCase() in this.flags) ?
                 this.flags[country.toUpperCase()].emoji :
                 '';
         };
