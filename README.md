@@ -1,4 +1,5 @@
-# angular-emoji-flags
+# angular-emoji-flags [![Build Status](https://travis-ci.org/zwacky/angular-emoji-flags.svg?branch=master)](https://travis-ci.org/zwacky/angular-emoji-flags)
+
 turns a country code (ISO 3166) into a flag emoji.
 
 ## Installation
