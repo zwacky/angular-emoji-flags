@@ -18,7 +18,8 @@
     "gulp-uglify": "~0.2.1",
     "merge-stream": "^1.0.0",
     "multipipe": "0.0.2",
-    "testem": "^0.9.5"
+    "testem": "^0.9.5",
+    "tsd": "^0.6.5"
   },
   "scripts": {
     "test": "gulp build && testem ci",
