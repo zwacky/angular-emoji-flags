@@ -418,8 +418,8 @@ var angularEmojiFlags;
             };
         }
         EmojiFlagsService.prototype.getFlagByCountry = function (country) {
-            return (country && country.toUpperCase() in this.flags) ?
-                this.flags[country.toUpperCase()].emoji :
+            return (angular.isString(country) && country.toUpperCase() in this.flags) ?
+                this.flags[country.toUpperCase()] :
                 '';
         };
         EmojiFlagsService.$inject = [];
