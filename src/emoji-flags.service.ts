@@ -600,8 +600,8 @@ module angularEmojiFlags {
         constructor() {}
 
         getFlagByCountry(country:string): string {
-            return (country && country.toUpperCase() in this.flags) ?
-                this.flags[country.toUpperCase()].emoji :
+            return (angular.isString(country) && country.toUpperCase() in this.flags) ?
+                this.flags[country.toUpperCase()] :
                 '';
         }
 

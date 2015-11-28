@@ -18,6 +18,7 @@ describe('the display of angular-emoji-flags', function() {
             {country: 'GERMANY', shouldBe: ''},
             {country: '', shouldBe: ''},
             {country: null, shouldBe: ''},
+            {country: undefined, shouldBe: ''}
         ];
 
         testCases.forEach(function(item) {
