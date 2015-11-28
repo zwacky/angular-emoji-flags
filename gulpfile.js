@@ -48,6 +48,9 @@ gulp.task('js', ['clean', 'lint'], function() {
 		.pipe(plugins.concat(project.name + '.js'))
 		.pipe(plugins.ngAnnotate())
 		// .pipe(plugins.uglify())
+		.pipe(gulp.dest(paths.dist))
+		.pipe(plugins.uglify())
+		.pipe(plugins.concat(project.name + '.min.js'))
 		.pipe(gulp.dest(paths.dist));
 });
 
