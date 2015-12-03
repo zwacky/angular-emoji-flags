@@ -11,6 +11,10 @@ turns a country code (ISO 3166) into a flag emoji.
 
 https://jsbin.com/yigimoxuku/edit?html,js,output
 
+## Emoji Support
+
+Not every OS and Browser are able to display emojis. Check the support here: http://caniemoji.com
+
 ## Usage
 
 ```
