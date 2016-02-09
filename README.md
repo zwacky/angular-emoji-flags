@@ -9,7 +9,8 @@ turns a country code (ISO 3166) into a flag emoji.
 
 ## Demo
 
-https://jsbin.com/yigimoxuku/edit?html,js,output
+- https://jsbin.com/yigimoxuku/edit?html,js,output
+- or `npm install && gulp watch` to run the demo locally
 
 ## Emoji Support
 
@@ -30,3 +31,7 @@ $scope.emoji = emojiFlags.getFlagByCountry('us');
 Currently there are 197 countries supported. 60 are still missing.
 
 For the full list of supported and missing countries please refer to: https://docs.google.com/spreadsheets/d/15yDAA8Fcl-pVfhDZRJQQUbJia_zj_33IzjRmLM3D_3w/edit?usp=sharing
+
+## Contribute
+
+- Just use `gulp watch` and hack away!

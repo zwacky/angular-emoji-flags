@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="demo-app">
+    <head>
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    </head>
+    <body ng-controller="DemoCtrl as demo">
+
+        <div class="container">
+            <h2>angular-emoji-flags <small>Demo</small></h2>
+            <hr>
+            <br>
+            <h3>Using service in controller</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Country</th>
+                        <th>Code</th>
+                        <th>Flag</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="country in demo.countries">
+                        <th scope="row">{{$index+1}}</th>
+                        <td>{{country.name}}</td>
+                        <td>{{country.code.toUpperCase()}}</td>
+                        <td>{{demo.getFlag(country.code)}}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <h3>Also works with a filter</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Country</th>
+                        <th>Code</th>
+                        <th>Flag</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="country in demo.countries">
+                        <th scope="row">{{$index+1}}</th>
+                        <td>{{country.name}}</td>
+                        <td>{{country.code.toUpperCase()}}</td>
+                        <td>{{country.code| asEmojiFlag }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <script type="text/javascript" src="../node_modules/angular/angular.js"></script>
+        <script type="text/javascript" src="./demo-app.js"></script>
+        <script type="text/javascript" src="../dist/angular-emoji-flags.js"></script>
+    </body>
+</html>
