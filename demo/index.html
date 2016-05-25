@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="demo-app">
     <head>
+        <title>angular-emoji-flags Demo</title>
         <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
     </head>
     <body ng-controller="DemoCtrl as demo">
@@ -10,6 +11,7 @@
             <hr>
             <br>
             <h3>Using service in controller</h3>
+            <pre>flag = emojiFlags.getFlagByCountry('de')</pre>
             <table class="table">
                 <thead>
                     <tr>
@@ -30,6 +32,7 @@
             </table>
             <br>
             <h3>Also works with a filter</h3>
+            <pre ng-non-bindable>{{'de' | asEmojiFlag}}</pre>
             <table class="table">
                 <thead>
                     <tr>
@@ -44,7 +47,7 @@
                         <th scope="row">{{$index+1}}</th>
                         <td>{{country.name}}</td>
                         <td>{{country.code.toUpperCase()}}</td>
-                        <td>{{country.code| asEmojiFlag }}</td>
+                        <td>{{country.code | asEmojiFlag }}</td>
                     </tr>
                 </tbody>
             </table>
