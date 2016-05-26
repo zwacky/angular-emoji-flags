@@ -300,7 +300,7 @@ module angularEmojiFlags {
 
             /* country: 'Kiribati' */
             KI: '🇰🇮',
-            
+
             /* country: 'South Korea' */
             KR: '🇰🇷',
 
