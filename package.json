@@ -1,6 +1,6 @@
 {
   "name": "angular-emoji-flags",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "turns a country code (ISO 3166) into a flag emoji",
   "main": "dist/angular-emoji-flags.js",
   "devDependencies": {

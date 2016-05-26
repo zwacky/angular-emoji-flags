@@ -219,6 +219,8 @@ var angularEmojiFlags;
                 KE: '🇰🇪',
                 /* country: 'Kiribati' */
                 KI: '🇰🇮',
+                /* country: 'South Korea' */
+                KR: '🇰🇷',
                 /* country: 'Kuwait' */
                 KW: '🇰🇼',
                 /* country: 'Kyrgyzstan' */
@@ -327,6 +329,8 @@ var angularEmojiFlags;
                 QA: '🇶🇦',
                 /* country: 'Romania' */
                 RO: '🇷🇴',
+                /* country: 'Russia' */
+                RU: '🇷🇺',
                 /* country: 'Rwanda' */
                 RW: '🇷🇼',
                 /* country: 'Samoa' */
