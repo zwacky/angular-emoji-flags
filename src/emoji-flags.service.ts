@@ -300,6 +300,9 @@ module angularEmojiFlags {
 
             /* country: 'Kiribati' */
             KI: '🇰🇮',
+            
+            /* country: 'South Korea' */
+            KR: '🇰🇷',
 
             /* country: 'Kuwait' */
             KW: '🇰🇼',
@@ -462,6 +465,9 @@ module angularEmojiFlags {
 
             /* country: 'Romania' */
             RO: '🇷🇴',
+
+            /* country: 'Russia' */
+            RU: '🇷🇺',
 
             /* country: 'Rwanda' */
             RW: '🇷🇼',
