@@ -411,6 +411,8 @@ var angularEmojiFlags;
                 VU: '🇻🇺',
                 /* country: 'Venezuela' */
                 VE: '🇻🇪',
+                /* country: 'Vietnam' */
+                VN: '🇻🇳',
                 /* country: 'Western Sahara' */
                 EH: '🇪🇭',
                 /* country: 'Yemen' */

@@ -589,6 +589,9 @@ module angularEmojiFlags {
             /* country: 'Venezuela' */
             VE: '🇻🇪',
 
+            /* country: 'Vietnam' */
+            VN: '🇻🇳',
+
             /* country: 'Western Sahara' */
             EH: '🇪🇭',
 
